@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-daisy-ui</title>
+
+  <div class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+
+    <!-- Logo -->
+    <div class="navbar-start">
+      <a class="btn btn-ghost text-xl">KinKiniBd</a>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>Home</a></li>
+        <li><a>Products</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Search + Auth -->
+    <div class="navbar-end gap-2">
+      <input type="text" placeholder="Search" class="input input-bordered hidden md:block" />
+      <a class="btn btn-ghost">Login</a>
+      <a class="btn btn-primary">Signup</a>
+    </div>
+
+  </div>
+
+
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
